@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OTP Verification Form</title>
+  <link rel="stylesheet" href="OTPstyle.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div id="navbar">
+    <div>
+      <h1>AYUSH</h1>
+      <p>OTP verification</p>
+    </div>
+  </div>
+  <div class="container">
+    <header>
+      <i class="bx bxs-check-shield"></i>
+    </header>
+    <h4>Enter OTP Code</h4>
+    <p>An OTP was sent to your Email <br>(<span id="email"></span>) for verification.</p>
+    <form action="">
+      <div class="input-field">
+        <input type="number" />
+        <input type="number" disabled />
+        <input type="number" disabled />
+        <input type="number" disabled />
+      </div>
+      <div id="otpStatus"></div>
+      <a href="SignUpDone.html" id="verifyOTP">Verify OTP</a>
+    </form>
+    <p>If you didn't recieve any Email, <br>Click here to <button>Resend.</button></p>
+  </div>
+  <script src="OTPscript.js"></script>
+</body>
+
+</html>

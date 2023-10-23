@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  background-image: url("https://img.freepik.com/free-vector/diverse-crowd-people-different-ages-races_74855-5235.jpg?w=996&t=st=1690574445~exp=1690575045~hmac=8c43017e2eab844656980a7455a7a6f78aa050972a3da166c9dc59e7dec771cc");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh;
+}
+
+#navbar {
+  background: black;
+  color: #fff;
+  padding: 17px 60px 20px;
+
+}
+
+#navbar div {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#loginSignUpToggle {
+  user-select: none;
+  cursor: pointer;
+}
+
+#loginSignUpToggle:hover {
+  color: #adadf5;
+}
+
+#mainContainer {
+  margin: 0 30px;
+}
+
+#loginSignup {
+  max-width: 500px;
+  padding: 20px;
+  margin: 50px auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  background-color: rgba(255, 255, 255, 0.6);
+  /* Change the opacity as per your preference */
+  backdrop-filter: blur(5px);
+  /* Adjust the blur radius as needed */
+
+
+}
+
+#loginSignup h1 {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #4CAF50;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#loginLink {
+  background-color: transparent;
+  color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+#loginLink:hover {
+  text-decoration: underline;
+}
+
+#signupLink {
+  background-color: transparent;
+  color: #4CAF50;
+  border: none;
+  cursor: pointer;
+}
+
+#signupLink:hover {
+  text-decoration: underline;
+}
+
+
+#loginSignup p {
+  text-align: center;
+  margin-top: 15px;
+}
